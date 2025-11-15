@@ -1,3 +1,3 @@
 venv/
 __pycache__/
-game.state.json1/
+./game_state.jsonl
