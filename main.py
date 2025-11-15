@@ -11,6 +11,8 @@ def main():
     # initialize the pygame package
     pygame.init()
     print("Starting Asteroids!")
+    print("Screen width:", SCREEN_WIDTH)
+    print("Screen height:", SCREEN_HEIGHT)
     # make the display 
     # create all game groups 
     updatable = pygame.sprite.Group()
