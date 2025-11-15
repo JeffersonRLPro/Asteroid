@@ -6,6 +6,7 @@ from player import Player
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shots
+from logger import log_state
 
 def main():
     # initialize the pygame package
@@ -36,6 +37,7 @@ def main():
     dt = 1
     # create an infinate loop
     while(True):
+        log_state()
         # if the x is selected, quit
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
